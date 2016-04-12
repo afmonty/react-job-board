@@ -1,23 +1,49 @@
 @import 'variables';
 
+// html { 
+//   background: url(./../assets/bg.png) repeat center center fixed; 
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+// };
+
 body {
  	padding-left: 2em;
  	padding-right: 2em;
-}
+};
 header{
 	background: light-grey;
 	text-align: center;
 	margin-bottom: 2em;
 	border: 1px solid black;
 	padding-bottom: 1em;
+	overflow: hidden;
+};
+.logo-container{
+	float: left;
+	clear: both;
+	margin-left: 5em;
+};
+.navbar-link-container{
+	display: inline-block;
+	clear: both;
+	margin-top: 1em;
 };
 a{
 	margin-right: 2em;
+	margin-top: 2em;
 };
 img{
 	height: 3em;
 	width: 3em;
-	margin-right: 2em;
+	float: left;
+};
+.nav-logo{
+	float: left;
+	margin-top: 1em;
+	margin-left: 1em;
+
 };
 input{
 	width: 20em;
@@ -63,7 +89,7 @@ h2{
 };
 .job-location{
 	//margin: 3em;
-}
+};
 .job-keyword-list{
 	padding: .5em;
 	display: inline-block;
@@ -72,3 +98,100 @@ h2{
 	background: #FAFBEB;
 	font-size: 14pt;
 };
+.info-box-container{
+	background: #EEEEEE;
+	padding: 1em;
+	margin-bottom: 2em;
+	color: black;
+    background: repeating-linear-gradient(
+	    45deg,
+	    transparent,
+	    transparent 10px,
+	    #ccc 10px,
+	    #ccc 20px
+  ),
+  linear-gradient(
+    to bottom,
+    #eee,
+    #999
+  )
+};
+.info-box{
+  background: white;
+  border: 1px solid #EAECA4;
+  background: #FAFBEB;
+  text-align: center;
+  padding: 5em;
+};
+.info-title{
+	font-size: 32pt;
+	border-bottom: 2px solid #93928F;
+};
+.info-create-a-profile{
+	font-color: #434739;
+	font-size: 24pt;
+};
+.info-list-container{
+	text-align: left;
+	margin: auto auto auto 5em;;
+};
+.info-list{
+	font-size: 24pt;
+	font-color: #434739;
+	margin: 0;
+};
+.info-button{
+	height: 75px;
+	width: 595px;
+	color: #FFFFFF;
+	font-size: 24pt
+};
+
+.company-info-container{
+	padding: 1em;
+	color: black;
+    background: repeating-linear-gradient(
+	    45deg,
+	    transparent,
+	    transparent 10px,
+	    #ccc 10px,
+	    #ccc 20px
+  ),
+  linear-gradient(
+    to bottom,
+    #eee,
+    #999
+  )
+};
+.company-box{
+	background: white;
+	border: 1px solid #EAECA4;
+	// background: #FAFBEB;
+	text-align: center;
+	padding: 5em;
+	overflow: hidden;
+};
+.company-title{
+	font-size: 32pt;
+	border-bottom: 2px solid #93928F;
+};
+.company-image-container{
+	overflow: hidden;
+};
+.we-believe{
+	height: 270px;
+	width: 600px;
+};
+.featured-image-container{
+	overflow: hidden;
+}
+.featured-image{
+	height: 246px;
+	width: 247px;
+	background-color:rgba(0, 0, 0, 0.5);
+
+};
+
+
+
+

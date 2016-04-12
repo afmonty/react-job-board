@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import NavBar from './navbar.js';
 import FilterBox from './filterbox.js';
 import JobItem from './jobitem.js';
+import InfoBox from './infobox.js';
+import CompanyBox from './companybox.js';
 //import cat from "./../assets/orangecat.jpg";
 
 
@@ -20,4 +22,12 @@ ReactDOM.render(
     React.createElement(JobItem),
     document.querySelector('.job-row'));
 
+ReactDOM.render(
+    React.createElement(InfoBox),
+    document.querySelector('.info-box-container'));
 
+ReactDOM.render(
+    React.createElement(CompanyBox),
+    document.querySelector('.company-info-container'));
+
+ 
