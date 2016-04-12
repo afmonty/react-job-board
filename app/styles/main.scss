@@ -1,12 +1,8 @@
 @import 'variables';
 
-// html { 
-//   background: url(./../assets/bg.png) repeat center center fixed; 
-//   -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -o-background-size: cover;
-//   background-size: cover;
-// };
+html { 
+  background: url(./../assets/bg.png)  
+};
 
 body {
  	padding-left: 2em;
@@ -19,6 +15,7 @@ header{
 	border-top: 5px solid black;
 	padding-bottom: 1em;
 	overflow: hidden;
+	background: white;
 };
 .logo-container{
 	float: left;
@@ -55,6 +52,7 @@ input{
 	overflow: hidden;
 	padding: 2em;
 	border: 1px solid black;
+	background: white;
 };
 .search{
 	font-weight: bold;
@@ -87,6 +85,7 @@ button{
 	overflow: hidden;
 	margin-bottom: 2em;
 	padding: 1em;
+	background: white;
 }
 h2{
 	display: inline-block;
@@ -108,22 +107,7 @@ h2{
 	font-size: 14pt;
 };
 .info-box-container{
-	background: #EEEEEE;
-	padding: 1em;
-	margin-bottom: 2em;
-	color: black;
-    background: repeating-linear-gradient(
-	    45deg,
-	    transparent,
-	    transparent 10px,
-	    #ccc 10px,
-	    #ccc 20px
-  ),
-  linear-gradient(
-    to bottom,
-    #eee,
-    #999
-  )
+background: white;
 };
 .info-box{
   background: white;
@@ -160,20 +144,7 @@ h2{
 };
 
 .company-info-container{
-	padding: 1em;
-	color: black;
-    background: repeating-linear-gradient(
-	    45deg,
-	    transparent,
-	    transparent 10px,
-	    #ccc 10px,
-	    #ccc 20px
-  ),
-  linear-gradient(
-    to bottom,
-    #eee,
-    #999
-  )
+background: white;
 };
 .company-box{
 	background: white;
