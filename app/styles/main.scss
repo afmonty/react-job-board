@@ -1,6 +1,74 @@
 @import 'variables';
 
-// body {
-//   background: $light-grey;
-//   background-image: url(../assets/orangecat.jpg);
-// }
+body {
+ 	padding-left: 2em;
+ 	padding-right: 2em;
+}
+header{
+	background: light-grey;
+	text-align: center;
+	margin-bottom: 2em;
+	border: 1px solid black;
+	padding-bottom: 1em;
+};
+a{
+	margin-right: 2em;
+};
+img{
+	height: 3em;
+	width: 3em;
+	margin-right: 2em;
+};
+input{
+	width: 20em;
+	height: 2em;
+}
+.filter-form{
+	overflow: hidden;
+	padding: 2em;
+	border: 1px solid black;
+};
+.search{
+	font-weight: bold;
+};
+.filter-form{
+	margin-bottom: 2em;
+}
+.search-keyword{
+	display: inline-block;
+	margin-right: 5em;
+	margin-left: 5em;
+};
+.search-location{
+	display: inline-block;
+	margin-left: .5em;
+};
+button{
+	border-radius: 10%;
+	background: light green;
+	font-color: white;
+};
+.job-row{
+	border: 1px solid black;
+	overflow: hidden;
+	margin-bottom: 2em;
+	padding: 1em;
+}
+h2{
+	display: inline-block;
+	clear: both;
+};
+.posted-date{
+	float: right;
+};
+.job-location{
+	//margin: 3em;
+}
+.job-keyword-list{
+	padding: .5em;
+	display: inline-block;
+	margin: .2em;
+	border: 1px solid #EAECA4;
+	background: #FAFBEB;
+	font-size: 14pt;
+};
