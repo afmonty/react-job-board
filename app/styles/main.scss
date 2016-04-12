@@ -13,10 +13,10 @@ body {
  	padding-right: 2em;
 };
 header{
-	background: light-grey;
 	text-align: center;
 	margin-bottom: 2em;
 	border: 1px solid black;
+	border-top: 5px solid black;
 	padding-bottom: 1em;
 	overflow: hidden;
 };
@@ -40,6 +40,8 @@ img{
 	float: left;
 };
 .nav-logo{
+	color: #006632;
+	font-family: san-sarif;
 	float: left;
 	margin-top: 1em;
 	margin-left: 1em;
@@ -62,17 +64,23 @@ input{
 }
 .search-keyword{
 	display: inline-block;
-	margin-right: 5em;
+	margin-right: 2em;
 	margin-left: 5em;
+	font-color: #006632;
 };
 .search-location{
 	display: inline-block;
 	margin-left: .5em;
+	color: #006632;
 };
+
 button{
+	height: 3em;
+	width: 10em;
 	border-radius: 10%;
-	background: light green;
+	background: #379B50;
 	font-color: white;
+	margin-left: 2em;
 };
 .job-row{
 	border: 1px solid black;
@@ -83,12 +91,13 @@ button{
 h2{
 	display: inline-block;
 	clear: both;
+	color: #006632;
 };
 .posted-date{
 	float: right;
 };
-.job-location{
-	//margin: 3em;
+.job-description{
+	color: #CCCCCC;
 };
 .job-keyword-list{
 	padding: .5em;
@@ -122,6 +131,7 @@ h2{
   background: #FAFBEB;
   text-align: center;
   padding: 5em;
+  overflow: hidden;
 };
 .info-title{
 	font-size: 32pt;
@@ -144,7 +154,9 @@ h2{
 	height: 75px;
 	width: 595px;
 	color: #FFFFFF;
-	font-size: 24pt
+	font-size: 24pt;
+	background: #CCCCCC;
+	margin: 0;
 };
 
 .company-info-container{
