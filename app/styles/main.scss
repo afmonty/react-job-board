@@ -165,14 +165,19 @@ background: white;
 	height: 270px;
 	width: 600px;
 };
-.featured-image-container{
+.company-featured{
+	margin-left: 10em;
 	overflow: hidden;
-}
+};
 .featured-image{
 	height: 246px;
 	width: 247px;
-	background-color:rgba(0, 0, 0, 0.5);
-
+};
+.featured-logo{
+	text-align: center;
+	h1{
+		font-size: 32pt;
+	};
 };
 
 
