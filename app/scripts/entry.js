@@ -1,11 +1,11 @@
 import './../styles/main.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import NavBar from './navbar.js';
-import FilterBox from './filterbox.js';
-import JobItem from './jobitem.js';
-import InfoBox from './infobox.js';
-import CompanyBox from './companybox.js';
+import NavBar from './../components/navbar.js';
+import FilterBox from './../components/filterbox.js';
+import JobItem from './../components/jobitem.js';
+import InfoBox from './../components/infobox.js';
+import CompanyBox from './../components/companybox.js';
 //import cat from "./../assets/orangecat.jpg";
 
 

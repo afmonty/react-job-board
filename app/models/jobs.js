@@ -8,7 +8,7 @@ const JobModel = Backbone.Model.extend({
 		jlocation: '',
 		jtitle: '',
 		jdesc: '',
-		date: '',
+		jdate: '',
 		keywords: []
 	},
 	urlRoot: 'http://small-tiyfe.herokuapp.com/collections/jobs',
