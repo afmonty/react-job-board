@@ -6,4 +6,4 @@ const UserCollection = Backbone.Collection.extend({
 	url:  'http://small-tiyfe.herokuapp.com/collections/users'
 });
 
-export default UserCollection;
+export default new UserCollection();

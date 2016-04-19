@@ -10,7 +10,7 @@ const JobItem = React.createClass({
 		<h2 className = "job-title">{this.props.jtitle}</h2>
 		<div>
 			<span className = 'job-location'>{this.props.jlocation}</span>
-			<p className = 'job-description'>{this.props.desc}</p>
+			<p className = 'job-description'>{this.props.jdesc}</p>
 		</div>
 		<div className = "job-keyword-list">angularjs</div>
 		<div className = "job-keyword-list">d3.js</div>

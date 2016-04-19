@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import NavItem from './navitem.js';
 import logo from './../assets/fresh-logo.png';
+import {Link} from 'react-router';
 
 const NavBar = React.createClass({
 	render: function(){
@@ -9,14 +9,14 @@ const NavBar = React.createClass({
 		<div>
 			<div className = "logo-container">
 				<img src = {logo} />
-				<span className = 'nav-logo'>Fresh Jobs</span>
+				<Link className='nav-logo'to="/">Fresh Jobs</Link>
 			</div>
 			<div className = "navbar-link-container">
 				<a href="#">Jobs</a>
 				<a href="#">Company</a>
 				<a href="#">City</a>
 				<a href="#">Why Fresh</a>
-				<a href="#">For Employers</a>
+				 <Link className="navbar-link" to="jobpost">For Employers</Link>
 			</div>
 		</div>
 		);
@@ -24,3 +24,4 @@ const NavBar = React.createClass({
 });
 
 export default NavBar;
+

@@ -6,4 +6,4 @@ const CompanyCollection = Backbone.Collection.extend({
 	url:  'http://small-tiyfe.herokuapp.com/collections/company'
 });
 
-export default CompanyCollection;
+export default new CompanyCollection();

@@ -6,7 +6,7 @@ const JobCollection = Backbone.Collection.extend({
 	url:  'http://small-tiyfe.herokuapp.com/collections/jobs'
 });
 
-export default JobCollection;
+export default new JobCollection();
 
 
 

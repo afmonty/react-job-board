@@ -1,7 +1,7 @@
 import Backbone from 'backbone';
 
 
-const UsersModel = Backbone.Model.extend({
+const UserModel = Backbone.Model.extend({
 	defaults: {
 		uname: '',
 		ucity:'',
@@ -11,4 +11,4 @@ const UsersModel = Backbone.Model.extend({
 	idAttribute: '_id'
 });
 
-export default UsersModel;
+export default UserModel;
