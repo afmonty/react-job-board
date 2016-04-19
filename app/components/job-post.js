@@ -12,7 +12,6 @@ const JobPost = React.createClass({
 			jobs: JobCollection
 		};
 	},
-
 	submitJobPost: function(e) {
 		e.preventDefault();
 		this.state.jobs.create({
@@ -21,8 +20,9 @@ const JobPost = React.createClass({
 			jlocation: this.refs['job-loc-input'].value,
 			jdesc:  this.refs['job-desc-input'].value
 		});
+		
 	},
-
+	
 	render: function(){
 		return (
 			<form className ='job-post-form' onSubmit = {this.submitJobPost}>
